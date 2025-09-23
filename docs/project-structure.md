@@ -37,7 +37,7 @@ Source/Project_Football/
     Character/
 ```
 
-## Naming Conventions (Light)
+## Naming Conventions
 | Type | Prefix | Example |
 |------|--------|---------|
 | Blueprint Actor | BP_ | BP_Football |
@@ -66,6 +66,3 @@ Source/Project_Football/
 
 ## UI
 - HUD: `WBP_QBHUD`
-
-## Extend Later
-Add subsections for pipelines, asset dependencies, and packaging once they matter.

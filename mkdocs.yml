@@ -1,6 +1,8 @@
 site_name: Project Football Documentation
 theme:
-  name: material
+  name: readthedocs
+  palette:
+    scheme: slate
   features:
     - navigation.tabs
     - navigation.top
