@@ -1,17 +1,36 @@
-# Welcome to MkDocs
+# Project Football
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> Lightweight technical & content documentation for the Unreal Engine 5.6 prototype.
 
-## Commands
+## Purpose
+Capture just enough shared knowledge to move fast without re‑explaining core systems.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Start Here
+- Quick setup: see [Quick Start](quick-start.md)
+- Folder + naming: see [Project Structure](project-structure.md)
+- Ability framework: see [Ability System](gameplay/ability-system.md)
 
-## Project layout
+## Core Systems (Snapshot)
+| Area | Status | Notes |
+|------|--------|-------|
+| Ability System | Early | Sprint / Throw / Tackle / Block implemented |
+| Movement | Early | Custom movement component present |
+| Input | Early | Enhanced Input contexts wired |
+| UI HUD | Prototype | `WBP_QBHUD` placeholder |
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Maps
+Current: Prototype field, third-person test, lobby staging.
+
+## Immediate Priorities
+1. Tuning stamina + cost effects
+2. Add catch / possession logic
+3. Basic scoreboard UI
+
+## Contribute
+Standards are intentionally minimal—expand as contributors join. See [Standards](standards.md).
+
+## Changelog Snapshot
+See full [Changelog](changelog.md).
+
+## FAQ
+Common answers: [FAQ](faq.md).

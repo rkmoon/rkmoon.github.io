@@ -1,2 +1,42 @@
 site_name: Project Football Documentation
-theme: material
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Quick Start: quick-start.md
+  - Project Structure: project-structure.md
+  - Gameplay:
+      - Ability System Overview: gameplay/ability-system.md
+      - Abilities: gameplay/abilities.md
+      - Gameplay Effects: gameplay/effects.md
+      - Gameplay Tags: gameplay/gameplay-tags.md
+      - Character: gameplay/character.md
+  - Systems:
+      - Input: systems/input.md
+      - Movement: systems/movement.md
+  - Assets:
+      - Maps: assets/maps.md
+      - UI / HUD: assets/ui.md
+      - Art & Materials: assets/art-materials.md
+  - Code:
+      - Modules: code/modules.md
+      - Class Overview: code/class-overview.md
+  - Standards: standards.md
+  - Changelog: changelog.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - def_list
+  - attr_list
+  - footnotes
+
+extra:
+  project_version: 0.1.0
