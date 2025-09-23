@@ -11,6 +11,7 @@ nav:
   - Project Structure: project-structure.md
   - Gameplay:
       - Ability System Overview: gameplay/ability-system.md
+      - Attributes: gameplay/attributes.md
       - Abilities: gameplay/abilities.md
       - Gameplay Effects: gameplay/effects.md
       - Gameplay Tags: gameplay/gameplay-tags.md

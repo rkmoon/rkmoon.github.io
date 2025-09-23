@@ -1,6 +1,6 @@
 # Gameplay Tags
 
-Central tag table: `DT_GameplayTags`.
+Central tag table: `DT_GameplayTags`. Tags often gate or modify attributes (see [Attributes](attributes.md)).
 
 ## Example Tag Categories (Propose & Refine)
 | Category | Example | Purpose |

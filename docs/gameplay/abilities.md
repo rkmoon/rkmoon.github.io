@@ -11,7 +11,7 @@ List + purpose of each `GA_` asset.
 | GA_ThrowBall | Launch football | `GE_ApplyJustThrewBall`, remove hold | Stamina + maybe cooldown | Spawns / detaches ball |
 
 ## Data Source
-Costs: `DA_AbilityCosts` (tunable table or data asset)
+Costs: `DA_AbilityCosts` (tunable table or data asset). Attribute references (e.g., Stamina, SprintSpeedMultiplier) defined in [Attributes](attributes.md).
 
 ## Ability Guidelines
 - Use tags to: gate activation, mark transient states, filter effects.

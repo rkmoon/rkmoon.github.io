@@ -15,7 +15,7 @@ Primary playable character & related components.
 |-------|------|-------|
 | PFCharacterMovementComponent | `Character/PFCharacterMovementComponent.*` | Custom movement tweaks |
 | PFGameplayAbilityBase | `AbilitySystem/PFGameplayAbilityBase.*` | Shared ability helpers |
-| PFAttributeSet | `AbilitySystem/PFAttributeSet.*` | Stamina + future attributes |
+| PFAttributeSet | `AbilitySystem/PFAttributeSet.*` | Core stats (see [Attributes](attributes.md)) |
 
 
 ## Ability System Integration

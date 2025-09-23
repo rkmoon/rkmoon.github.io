@@ -10,7 +10,7 @@ High-level description of how the Unreal Gameplay Ability System (GAS) is used.
 ## Components
 | Concept | Implementation | Notes |
 |---------|----------------|-------|
-| Attribute Set | `PFAttributeSet` | Holds stamina, etc. |
+| Attribute Set | `PFAttributeSet` | See [Attributes](attributes.md) for full list |
 | Ability Base | `PFGameplayAbilityBase` | Common logic / helper functions |
 | Cost Data | `DA_AbilityCosts` | Tunable cost values |
 | Abilities | `GA_*.uasset` | One Blueprint per action |
@@ -37,4 +37,4 @@ Data.Stamina
 - Activation prediction (if added)
 - Cooldown stacking rules
 
-See also: [Abilities](abilities.md), [Gameplay Effects](effects.md), [Gameplay Tags](gameplay-tags.md).
+See also: [Attributes](attributes.md), [Abilities](abilities.md), [Gameplay Effects](effects.md), [Gameplay Tags](gameplay-tags.md).
